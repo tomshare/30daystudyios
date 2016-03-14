@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17166481C96B2F900690660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17166471C96B2F900690660 /* main.m */; };
+		A171664B1C96B2F900690660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A171664A1C96B2F900690660 /* AppDelegate.m */; };
+		A171664E1C96B2F900690660 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A171664D1C96B2F900690660 /* ViewController.m */; };
+		A17166511C96B2F900690660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A171664F1C96B2F900690660 /* Main.storyboard */; };
+		A17166531C96B2F900690660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17166521C96B2F900690660 /* Assets.xcassets */; };
+		A17166561C96B2F900690660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17166541C96B2F900690660 /* LaunchScreen.storyboard */; };
+		A17166611C96B2FA00690660 /* SimplestopWATCHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17166601C96B2FA00690660 /* SimplestopWATCHTests.m */; };
+		A171666C1C96B2FA00690660 /* SimplestopWATCHUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A171666B1C96B2FA00690660 /* SimplestopWATCHUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A171665D1C96B2FA00690660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A171663B1C96B2F900690660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17166421C96B2F900690660;
+			remoteInfo = SimplestopWATCH;
+		};
+		A17166681C96B2FA00690660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A171663B1C96B2F900690660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17166421C96B2F900690660;
+			remoteInfo = SimplestopWATCH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A17166431C96B2F900690660 /* SimplestopWATCH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplestopWATCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17166471C96B2F900690660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A17166491C96B2F900690660 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A171664A1C96B2F900690660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A171664C1C96B2F900690660 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A171664D1C96B2F900690660 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A17166501C96B2F900690660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17166521C96B2F900690660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17166551C96B2F900690660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A17166571C96B2F900690660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A171665C1C96B2FA00690660 /* SimplestopWATCHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplestopWATCHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17166601C96B2FA00690660 /* SimplestopWATCHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplestopWATCHTests.m; sourceTree = "<group>"; };
+		A17166621C96B2FA00690660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17166671C96B2FA00690660 /* SimplestopWATCHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplestopWATCHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A171666B1C96B2FA00690660 /* SimplestopWATCHUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplestopWATCHUITests.m; sourceTree = "<group>"; };
+		A171666D1C96B2FA00690660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17166401C96B2F900690660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17166591C96B2FA00690660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17166641C96B2FA00690660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A171663A1C96B2F900690660 = {
+			isa = PBXGroup;
+			children = (
+				A17166451C96B2F900690660 /* SimplestopWATCH */,
+				A171665F1C96B2FA00690660 /* SimplestopWATCHTests */,
+				A171666A1C96B2FA00690660 /* SimplestopWATCHUITests */,
+				A17166441C96B2F900690660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17166441C96B2F900690660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17166431C96B2F900690660 /* SimplestopWATCH.app */,
+				A171665C1C96B2FA00690660 /* SimplestopWATCHTests.xctest */,
+				A17166671C96B2FA00690660 /* SimplestopWATCHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17166451C96B2F900690660 /* SimplestopWATCH */ = {
+			isa = PBXGroup;
+			children = (
+				A17166491C96B2F900690660 /* AppDelegate.h */,
+				A171664A1C96B2F900690660 /* AppDelegate.m */,
+				A171664C1C96B2F900690660 /* ViewController.h */,
+				A171664D1C96B2F900690660 /* ViewController.m */,
+				A171664F1C96B2F900690660 /* Main.storyboard */,
+				A17166521C96B2F900690660 /* Assets.xcassets */,
+				A17166541C96B2F900690660 /* LaunchScreen.storyboard */,
+				A17166571C96B2F900690660 /* Info.plist */,
+				A17166461C96B2F900690660 /* Supporting Files */,
+			);
+			path = SimplestopWATCH;
+			sourceTree = "<group>";
+		};
+		A17166461C96B2F900690660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17166471C96B2F900690660 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A171665F1C96B2FA00690660 /* SimplestopWATCHTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17166601C96B2FA00690660 /* SimplestopWATCHTests.m */,
+				A17166621C96B2FA00690660 /* Info.plist */,
+			);
+			path = SimplestopWATCHTests;
+			sourceTree = "<group>";
+		};
+		A171666A1C96B2FA00690660 /* SimplestopWATCHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A171666B1C96B2FA00690660 /* SimplestopWATCHUITests.m */,
+				A171666D1C96B2FA00690660 /* Info.plist */,
+			);
+			path = SimplestopWATCHUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17166421C96B2F900690660 /* SimplestopWATCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17166701C96B2FA00690660 /* Build configuration list for PBXNativeTarget "SimplestopWATCH" */;
+			buildPhases = (
+				A171663F1C96B2F900690660 /* Sources */,
+				A17166401C96B2F900690660 /* Frameworks */,
+				A17166411C96B2F900690660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplestopWATCH;
+			productName = SimplestopWATCH;
+			productReference = A17166431C96B2F900690660 /* SimplestopWATCH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A171665B1C96B2FA00690660 /* SimplestopWATCHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17166731C96B2FA00690660 /* Build configuration list for PBXNativeTarget "SimplestopWATCHTests" */;
+			buildPhases = (
+				A17166581C96B2FA00690660 /* Sources */,
+				A17166591C96B2FA00690660 /* Frameworks */,
+				A171665A1C96B2FA00690660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A171665E1C96B2FA00690660 /* PBXTargetDependency */,
+			);
+			name = SimplestopWATCHTests;
+			productName = SimplestopWATCHTests;
+			productReference = A171665C1C96B2FA00690660 /* SimplestopWATCHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17166661C96B2FA00690660 /* SimplestopWATCHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17166761C96B2FA00690660 /* Build configuration list for PBXNativeTarget "SimplestopWATCHUITests" */;
+			buildPhases = (
+				A17166631C96B2FA00690660 /* Sources */,
+				A17166641C96B2FA00690660 /* Frameworks */,
+				A17166651C96B2FA00690660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17166691C96B2FA00690660 /* PBXTargetDependency */,
+			);
+			name = SimplestopWATCHUITests;
+			productName = SimplestopWATCHUITests;
+			productReference = A17166671C96B2FA00690660 /* SimplestopWATCHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A171663B1C96B2F900690660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tch;
+				TargetAttributes = {
+					A17166421C96B2F900690660 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5RTJJ35DH2;
+					};
+					A171665B1C96B2FA00690660 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5RTJJ35DH2;
+						TestTargetID = A17166421C96B2F900690660;
+					};
+					A17166661C96B2FA00690660 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5RTJJ35DH2;
+						TestTargetID = A17166421C96B2F900690660;
+					};
+				};
+			};
+			buildConfigurationList = A171663E1C96B2F900690660 /* Build configuration list for PBXProject "SimplestopWATCH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A171663A1C96B2F900690660;
+			productRefGroup = A17166441C96B2F900690660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17166421C96B2F900690660 /* SimplestopWATCH */,
+				A171665B1C96B2FA00690660 /* SimplestopWATCHTests */,
+				A17166661C96B2FA00690660 /* SimplestopWATCHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17166411C96B2F900690660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17166561C96B2F900690660 /* LaunchScreen.storyboard in Resources */,
+				A17166531C96B2F900690660 /* Assets.xcassets in Resources */,
+				A17166511C96B2F900690660 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A171665A1C96B2FA00690660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17166651C96B2FA00690660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A171663F1C96B2F900690660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171664E1C96B2F900690660 /* ViewController.m in Sources */,
+				A171664B1C96B2F900690660 /* AppDelegate.m in Sources */,
+				A17166481C96B2F900690660 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17166581C96B2FA00690660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17166611C96B2FA00690660 /* SimplestopWATCHTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17166631C96B2FA00690660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A171666C1C96B2FA00690660 /* SimplestopWATCHUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A171665E1C96B2FA00690660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17166421C96B2F900690660 /* SimplestopWATCH */;
+			targetProxy = A171665D1C96B2FA00690660 /* PBXContainerItemProxy */;
+		};
+		A17166691C96B2FA00690660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17166421C96B2F900690660 /* SimplestopWATCH */;
+			targetProxy = A17166681C96B2FA00690660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A171664F1C96B2F900690660 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17166501C96B2F900690660 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17166541C96B2F900690660 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17166551C96B2F900690660 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A171666E1C96B2FA00690660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A171666F1C96B2FA00690660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17166711C96B2FA00690660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplestopWATCH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andy.SimplestopWATCH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A17166721C96B2FA00690660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplestopWATCH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andy.SimplestopWATCH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A17166741C96B2FA00690660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplestopWATCHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andy.SimplestopWATCHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplestopWATCH.app/SimplestopWATCH";
+			};
+			name = Debug;
+		};
+		A17166751C96B2FA00690660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplestopWATCHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andy.SimplestopWATCHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplestopWATCH.app/SimplestopWATCH";
+			};
+			name = Release;
+		};
+		A17166771C96B2FA00690660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplestopWATCHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andy.SimplestopWATCHUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimplestopWATCH;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A17166781C96B2FA00690660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplestopWATCHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andy.SimplestopWATCHUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimplestopWATCH;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A171663E1C96B2F900690660 /* Build configuration list for PBXProject "SimplestopWATCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A171666E1C96B2FA00690660 /* Debug */,
+				A171666F1C96B2FA00690660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17166701C96B2FA00690660 /* Build configuration list for PBXNativeTarget "SimplestopWATCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17166711C96B2FA00690660 /* Debug */,
+				A17166721C96B2FA00690660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A17166731C96B2FA00690660 /* Build configuration list for PBXNativeTarget "SimplestopWATCHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17166741C96B2FA00690660 /* Debug */,
+				A17166751C96B2FA00690660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A17166761C96B2FA00690660 /* Build configuration list for PBXNativeTarget "SimplestopWATCHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17166771C96B2FA00690660 /* Debug */,
+				A17166781C96B2FA00690660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A171663B1C96B2F900690660 /* Project object */;
+}
